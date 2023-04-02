@@ -1,0 +1,182 @@
+#title{
+    /* position:relative; */
+    background-color: #ff4c68;
+    /* padding-bottom: -50%; */
+    /* height: 720px; */
+    /* margin-bottom:-50%; */
+    /* position: absolute; */
+}
+
+body{
+    font-family: Montserrat;
+    font-weight: 100;
+}
+
+.heading1{
+    font-family: "Changa One";
+    font-size: 3.6rem;
+    line-height: 1.5;
+    font-weight: 100;
+    color:white;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.download-pic{
+    height:30px;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.nav-item{
+    padding :0 20px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.download-button{
+    margin: 3% 5% 3% 0%;
+}
+
+.title-img{
+    /* position: absolute; */
+    /* margin-top:140px; */
+    width: 20%;
+    transform: rotate(30deg);
+    position: absolute;
+
+    right: 400px;
+    /* bottom: 30px; */ 
+    
+}
+
+.feature-icon{
+    color:#ff8575;
+    margin-bottom: 15px;
+}
+.feature-icon:hover{
+    color:#ff4c68;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-row{
+    text-align: center;
+    padding: 5%;
+}
+/* 
+.feature-text{
+    width:50%;
+    text-align: center;
+} */
+p{
+    font-family: montserrat;
+    color: grey;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+#testimonials{
+    background-color:#ff8575;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.testimonials-img{
+    height:90px;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press{
+    background-color: #ff8575;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width:12%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.pricing-grid{
+    padding: 5% 7%;
+}
+
+.card{
+    margin: 3%;
+}
+
+#pricing{
+    padding:7% 15%; 
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        transform: rotate(0deg);
+        position: static;
+        height: 30rem;
+        width: 15rem;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-btn{
+    margin: 5% 3%
+}
+
+.footer-text{
+    font-family: "Changa One";
+    font-size: 2.5rem;
+    padding: 0 25%;
+    color: white
+}
+
+footer{
+    padding: 3% 5%;    
+    text-align: center;
+}
+
+.footer-img{
+    padding: 3% 1%;
+}
